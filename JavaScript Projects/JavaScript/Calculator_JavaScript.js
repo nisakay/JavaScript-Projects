@@ -57,10 +57,10 @@ function Handle_Operator(Next_Operator) {
         //if operator exists, property lookup is performed for the operator
         //in the Perform_Calculation object and the funtion that matches the
         //operator is executed
-        let result = Perform_Calculation[operator] (Value_Now. Value_of_Input);
+        let result = Perform_Calculation[operator] (Value_Now, Value_of_Input);
         //here we add a fixed amount of numbers after the decimal
         result =(result * 1). toString()
-        Calculator.Display_Valuec = (result);
+        Calculator.Display_Value = (result);
         Calculator.First_Operand = result;
     }
     Calculator.Wait_Second_Operand = true;
@@ -72,7 +72,7 @@ const Perform_Calculation = {
     '*': (First_Operand, Second_Operand) => First_Operand * Second_Operand,
     '+': (First_Operand, Second_Operand) => First_Operand + Second_Operand,
     '-': (First_Operand, Second_Operand) => First_Operand - Second_Operand,
-    '=': (First_Operand, Second_Operand) => Second_Operand,
+    '=': (First_Operand, Second_Operand) => Second_Operand
 };
 
 function Calculator_Reset() {
