@@ -1,6 +1,6 @@
 function countdown() {
-    var seconds = document.getElementById("seconds").nodeValue;
-    function trick() {
+    var seconds = document.getElementById("seconds").value;
+    function tick() {
         seconds = seconds -1;
         timer.innerHTML = seconds;
         setTimeout(tick, 1000);
@@ -8,7 +8,7 @@ function countdown() {
         alert("Time's up!");
     } 
         }
-    trick();    
+    tick();    
 
 }
 
