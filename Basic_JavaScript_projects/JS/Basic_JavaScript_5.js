@@ -7,8 +7,7 @@ Y = 22;
 document.write(X == Y); 
 
 X = "Bread";
-Y = "Bread";
-document.write(X === Y);
+document.write(X < 5);
 document.write(typeof 5);
 document.write(15 > 20 && 14 > 20);
 document.write(5 > 10 || 10 > 20);
