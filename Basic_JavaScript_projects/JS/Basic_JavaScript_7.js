@@ -6,7 +6,7 @@ function get_Date() {
 
 var X = 5;
 function Add_numbers_1() {
-    document.write(10 + X +"<br>");
+    document.write(10 + Z +"<br>");
 }
 function Add_numbers_2() {
     document.write(X + 50);
@@ -14,12 +14,12 @@ function Add_numbers_2() {
 Add_numbers_1();
 Add_numbers_2();
 
-function Add_numbers_1() {
+function Fix_numbers_1() {
     var X = 10;
     console.log(15 + X)
 }
-function Add_numbers_2() {
-    console.log(X + 50);
+function Fix_numbers_2() {
+    console.log(Z + 50);
 }
 Add_numbers_1();
 Add_numbers_2();
