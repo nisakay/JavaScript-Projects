@@ -30,3 +30,12 @@ function modulus_Operator() {
     document.write(X)
     window.alert(Math.random() * 100);
 }
+
+function increment_Operator() {
+    var simple_Math = 10 % 5;
+    document.getElementById("Math_5").innerHTML = "When you divide 10 by 5 you have a remainder of:" + simple_Math;
+    var X = 5;
+    X++;
+    document.write(X)
+    window.alert(Math.random() * 100);
+}
